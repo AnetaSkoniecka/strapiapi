@@ -1,5 +1,5 @@
 {
-  "connection": "default",
+  "connection": "mongo",
   "collectionName": "activities",
   "info": {
     "name": "activity",

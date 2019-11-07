@@ -1,5 +1,5 @@
 {
-  "connection": "default",
+  "connection": "mongo",
   "collectionName": "addresses",
   "info": {
     "name": "address",
