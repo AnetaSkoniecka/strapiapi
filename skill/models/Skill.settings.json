@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "skills",
+  "info": {
+    "name": "skill",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "unique": true,
+      "required": true,
+      "type": "string"
+    }
+  }
+}

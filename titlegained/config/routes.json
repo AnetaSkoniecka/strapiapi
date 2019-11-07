@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/titlegaineds",
+      "handler": "Titlegained.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/titlegaineds/count",
+      "handler": "Titlegained.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/titlegaineds/:id",
+      "handler": "Titlegained.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/titlegaineds",
+      "handler": "Titlegained.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/titlegaineds/:id",
+      "handler": "Titlegained.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/titlegaineds/:id",
+      "handler": "Titlegained.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

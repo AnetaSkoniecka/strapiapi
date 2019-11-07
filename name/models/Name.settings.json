@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "names",
+  "info": {
+    "name": "name",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    }
+  }
+}

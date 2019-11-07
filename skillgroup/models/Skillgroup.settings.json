@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "skilgroups",
+  "info": {
+    "name": "skillgroup",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "skills": {
+      "collection": "skill"
+    },
+    "average": {
+      "type": "integer",
+      "default": "",
+      "max": 10
+    }
+  }
+}

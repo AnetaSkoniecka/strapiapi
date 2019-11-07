@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/skillsections",
+      "handler": "Skillsection.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skillsections/count",
+      "handler": "Skillsection.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skillsections/:id",
+      "handler": "Skillsection.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/skillsections",
+      "handler": "Skillsection.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/skillsections/:id",
+      "handler": "Skillsection.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/skillsections/:id",
+      "handler": "Skillsection.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "titlegaineds",
+  "info": {
+    "name": "titlegained",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "gained": {
+      "type": "date"
+    },
+    "title": {
+      "model": "title"
+    }
+  }
+}

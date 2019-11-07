@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "people",
+  "info": {
+    "name": "person",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "model": "name"
+    },
+    "address": {
+      "model": "address"
+    },
+    "contacts": {
+      "collection": "contact"
+    },
+    "titlegained": {
+      "model": "titlegained"
+    },
+    "educations": {
+      "collection": "activity"
+    },
+    "experiences": {
+      "collection": "activity"
+    },
+    "skills": {
+      "collection": "skillsection"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "pages",
+  "info": {
+    "name": "page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "author": {
+      "model": "name"
+    },
+    "person": {
+      "model": "person"
+    },
+    "theme": {
+      "required": true,
+      "enum": [
+        "standard",
+        "premium",
+        "green"
+      ],
+      "type": "enumeration"
+    },
+    "slug": {
+      "unique": true,
+      "required": true,
+      "type": "string"
+    }
+  }
+}
